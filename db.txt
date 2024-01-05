@@ -1,0 +1,337 @@
+College Community System 
+
+Profile
+
+[{
+  "_id": {
+    "$oid": "655dba936e6415ec7b7b3a7c"
+  },
+  "fullName": "Shravani Pathak",
+  "email": "shrau@rediff.com",
+  "contact": "4325347564",
+  "password": "$2b$10$AnFfe4tOdvMLNE.fYrcEdO19W7uJY9Yj36Y6sZxiL2qGQaNVkifV.",
+  "created_at": {
+    "$date": "2023-11-22T08:23:47.469Z"
+  },
+  "__v": 1,
+  "info": [
+    {
+      "classToTeach": "bsc",
+      "subjectName": "math"
+    },
+    {
+      "classToTeach": "msc",
+      "subjectName": "stat"
+    }
+  ],
+  "type": "Teacher"
+},
+{
+  "_id": {
+    "$oid": "655dc7f4966e0dd50c461e85"
+  },
+  "fullName": "Abhiram Deshmukh",
+  "email": "abhi@yahoo.com",
+  "contact": "2342342343",
+  "password": "$2b$10$32VwSxCwatgD.LFq/Dive./pXERKfGesVthYc7aAe5ojE5WYYqQNW",
+  "created_at": {
+    "$date": "2023-11-22T09:20:52.201Z"
+  },
+  "__v": 0,
+  "info": {
+    "department": "Computer Science",
+    "selectDegree": "post-graduation",
+    "course": "MCA",
+    "classStud": "MCA first year"
+  },
+  "type": "Student"
+},
+{
+  "_id": {
+    "$oid": "655dcde1579de08a277e85b9"
+  },
+  "fullName": "manali phade",
+  "email": "manali@yahoo.com",
+  "contact": "2435246386",
+  "password": "$2b$10$.LyOZGLvf.TplAx2lv7hyuvGuZ7XlbH/FBPzWeY5VWlzLN0.fWaOW",
+  "created_at": {
+    "$date": "2023-11-22T09:46:09.237Z"
+  },
+  "__v": 2,
+  "info": [
+    {
+      "classToTeach": "mscPart2",
+      "subjectName": "sci"
+    },
+    {
+      "classToTeach": "msc",
+      "subjectName": "accounts"
+    }
+  ],
+  "type": "Teacher"
+},
+{
+  "_id": {
+    "$oid": "656474c296b4e6f1abc2def9"
+  },
+  "fullName": "Om Jay",
+  "email": "omjay@gmail.com",
+  "contact": "7656546545",
+  "password": "$2b$10$N05CuP0wYZg8MenoHu/NLeQBRMCvPBfg10W3WgD7umzgwi7olrhta",
+  "created_at": {
+    "$date": "2023-11-27T10:51:47.003Z"
+  },
+  "__v": 1,
+  "info": [
+    {
+      "classToTeach": "BCA",
+      "subjectName": "DSA"
+    },
+    {
+      "classToTeach": "MCA",
+      "subjectName": "JAVA"
+    }
+  ],
+  "type": "Teacher"
+},
+{
+  "_id": {
+    "$oid": "65657900f6dde31829656097"
+  },
+  "fullName": "Apple Apple",
+  "email": "apple@gmail.com",
+  "contact": "2345672345",
+  "password": "$2b$10$aJyJlX2dg0QBs/pU/SNjF.QgjDsVpX6VNW8oFtq1CyQgtZYjGD7vy",
+  "created_at": {
+    "$date": "2023-11-28T05:22:08.406Z"
+  },
+  "__v": 0,
+  "info": {
+    "department": "Computer Science",
+    "selectDegree": "post-graduation",
+    "course": "MCA",
+    "classStud": "MCA first year"
+  },
+  "type": "Student"
+},
+{
+  "_id": {
+    "$oid": "6567823f46e78e7e6bb59170"
+  },
+  "fullName": "Ratan jadhav",
+  "email": "ratan@yahoo.com",
+  "contact": "8678574324",
+  "password": "$2b$10$URQmgvI5./h6hiOwKg/ZX./wCYHYHbPkn.h3k9KMglYWqATrybbsO",
+  "created_at": {
+    "$date": "2023-11-29T18:26:08.010Z"
+  },
+  "__v": 0,
+  "info": {
+    "department": "Computer Science",
+    "selectDegree": "graduation",
+    "course": "bsc",
+    "classStud": "f.y.bsc"
+  },
+  "type": "Student"
+},
+{
+  "_id": {
+    "$oid": "656782b946e78e7e6bb5917b"
+  },
+  "fullName": "Rama joshi",
+  "email": "rama@yahoo.com",
+  "contact": "6756732923",
+  "password": "$2b$10$NGBcSdC9ng3BCraCtG7fKuzaOINlDgz5tigT/n8MlA8wpopn76Xga",
+  "created_at": {
+    "$date": "2023-11-29T18:28:09.600Z"
+  },
+  "__v": 1,
+  "info": [
+    {
+      "classToTeach": "F.YBsc",
+      "subjectName": "c prog"
+    },
+    {
+      "classToTeach": "T.Y.BCA",
+      "subjectName": "software testing"
+    }
+  ],
+  "type": "Teacher"
+},
+{
+  "_id": {
+    "$oid": "656dee865709f0b5e70ee92c"
+  },
+  "fullName": "Anil Patil",
+  "email": "anil@gmail.com",
+  "contact": "2345672345",
+  "password": "$2b$10$XDtHOE99by.C/v/OUobytOHfyRAZ/W09onqY4i1kMxA.bmD6UBbPu",
+  "created_at": {
+    "$date": "2023-12-04T15:21:42.152Z"
+  },
+  "__v": 0,
+  "info": {
+    "passoutYear": "12/03/2017",
+    "company": "Roman",
+    "scope": "java",
+    "experience": "6"
+  },
+  "type": "Alumni"
+}]
+
+
+
+
+
+Forum
+
+
+[{
+  "_id": {
+    "$oid": "656dece35709f0b5e70ee8e3"
+  },
+  "questionTitle": "Here are 10 Java interview questions with answers to serve as examples for possible interview situations:",
+  "questionBody": "Your interviewer may ask some general questions to learn more about your character and personality. They also may ask some basic Java questions to see whether you have a good understanding of these skills. Such questions may include:\n\nWhat are your greatest strengths and weaknesses?\nWhy do you want to work in this role?\nWhy should we select you as the chosen candidate?\nHow do you stay current with current topics related to Java?\nWhy are you leaving your current position?\nWhat was your favorite thing about your last programming job?\nWhat was your least favorite thing about your previous programming job?\nHow would your coworkers describe you?\nHow do you start a new development project?\nIf hired, what are your goals for your first 90 days?",
+  "questionTags": [
+    "placement",
+    "java",
+    ""
+  ],
+  "upVotes": 1,
+  "downVotes": 0,
+  "userPosted": "manali phade",
+  "userId": "655dcde1579de08a277e85b9",
+  "askedOn": {
+    "$date": "2023-12-04T15:14:43.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656dee365709f0b5e70ee916"
+  },
+  "questionTitle": "TCS , Infosys, Wipro hiring started ",
+  "questionBody": "Tata Consultancy Services (TCS)\nAptitude test - TCS take the aptitude test to check the Logic, English, and Mathematics knowledge.\nHR interview - In this round, the company checks the people and communication skills of the candidates.\nTechnical interview - TCS tests the capabilities of the candidates for the technical knowledge and its trends.\nInfosys                                                                          Infosys tests verbal, reasoning, mathematical, pseudo code, and puzzles ability.\nThe test is divided into 100 questions that one needs to cover in approximately 60 minutes.\n\n3. Accenture\nVerbal and Aptitude ability - The round check the aptitude with 55 questions in 60 minutes\nTechnical round - the process work on the programming concepts for the technologies like Java, Python, C++, C, etc.\nHR round - The round tests communication skills.\n\n4. Wipro\nPre-placement talk - The round includes job profile and company information explanation\nAptitude test - It tests the English, Logical, and Quants section\nEssay writing - The company makes candidates write an essay to understand their hold on the English language\nCoding - The coding round includes two questions that one need to answer in 60 minutes\nInterview - This is the technical and HR interview that checks the candidate’s abilities in OOP, DSA, DBMS, etc.",
+  "questionTags": [
+    "placement",
+    ""
+  ],
+  "upVotes": 2,
+  "downVotes": 0,
+  "userPosted": "Rama joshi",
+  "userId": "656782b946e78e7e6bb5917b",
+  "askedOn": {
+    "$date": "2023-12-04T15:20:22.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656def8d5709f0b5e70ee95a"
+  },
+  "questionTitle": "conducting a seminar on computer technology ",
+  "questionBody": "To enable the permanent College Teachers/College Librarians/Vice Chancellors/Commission Members/UGC Officers at the level of EO/US and above to present their research paper(s) in international conferences. The maximum age limit for College Teachers/College Librarians/UGC Officers is up to the age of superannuation and for Vice-Chancellors and Commission Members they should be in position.",
+  "questionTags": [
+    "seminar",
+    "IT"
+  ],
+  "upVotes": 6,
+  "downVotes": 0,
+  "userPosted": "Anil Patil",
+  "userId": "656dee865709f0b5e70ee92c",
+  "askedOn": {
+    "$date": "2023-12-04T15:26:05.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df1415709f0b5e70ee9b2"
+  },
+  "questionTitle": "Getting error while solving DSA problems ",
+  "questionBody": "# Python program for implementation of MergeSort\n\n\ndef mergeSort(arr):\n\tif len(arr) > 1:\n\n\t\t# Finding the mid of the array\n\t\tmid = len(arr)//2\n\n\t\t# Dividing the array elements\n\t\tL = arr[:mid]\n\n\t\t# Into 2 halves\n\t\tR = arr[mid:]\n\n\t\t# Sorting the first half\n\t\tmergeSort(L)\n\n\t\t# Sorting the second half\n\t\tmergeSort(R)\n\n\t\ti = j = k = 0\n\n\t\t# Copy data to temp arrays L[] and R[]\n\t\twhile i < len(L) and j < len(R):\n\t\t\tif L[i] <= R[j]:\n\t\t\t\tarr[k] = L[i]\n\t\t\t\ti += 1\n\t\t\telse:\n\t\t\t\tarr[k] = R[j]\n\t\t\t\tj += 1\n\t\t\tk += 1\n\n\t\t# Checking if any element was left\n\t\twhile i < len(L):\n\t\t\tarr[k] = L[i]\n\t\t\ti += 1\n\t\t\tk += 1\n\n\t\twhile j < len(R):\n\t\t\tarr[k] = R[j]\n\t\t\tj += 1\n\t\t\tk += 1\n\n\n# Code to print the list\ndef printList(arr):\n\tfor i in range(len(arr)):\n\t\tprint(arr[i], end=\" \")\n\tprint()\n\n\n# Driver Code\nif __name__ == '__main__':\n\tarr = [12, 11, 13, 5, 6, 7]\n\tprint(\"Given array is\")\n\tprintList(arr)\n\tmergeSort(arr)\n\tprint(\"\\nSorted array is \")\n\tprintList(arr)\n\n",
+  "questionTags": [
+    "python",
+    "error"
+  ],
+  "upVotes": 0,
+  "downVotes": 0,
+  "userPosted": "Ratan jadhav",
+  "userId": "6567823f46e78e7e6bb59170",
+  "askedOn": {
+    "$date": "2023-12-04T15:33:21.810Z"
+  },
+  "__v": 0
+}]
+
+
+
+
+
+Comment
+
+[{
+  "_id": {
+    "$oid": "656ded545709f0b5e70ee8ff"
+  },
+  "questionId": "656dece35709f0b5e70ee8e3",
+  "answerBody": "thank you so much.",
+  "userName": "Rama joshi",
+  "userId": "656782b946e78e7e6bb5917b",
+  "answeredOn": {
+    "$date": "2023-12-04T15:16:36.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656dee5f5709f0b5e70ee923"
+  },
+  "questionId": "656dee365709f0b5e70ee916",
+  "answerBody": "pls comment help if anyone needs any help",
+  "userName": "Rama joshi",
+  "userId": "656782b946e78e7e6bb5917b",
+  "answeredOn": {
+    "$date": "2023-12-04T15:21:03.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656def235709f0b5e70ee94d"
+  },
+  "questionId": "656dece35709f0b5e70ee8e3",
+  "answerBody": "Actually an important question students should prepare for it..",
+  "userName": "Anil Patil",
+  "userId": "656dee865709f0b5e70ee92c",
+  "answeredOn": {
+    "$date": "2023-12-04T15:24:19.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656defdf5709f0b5e70ee988"
+  },
+  "questionId": "656dee365709f0b5e70ee916",
+  "answerBody": "help",
+  "userName": "Ratan jadhav",
+  "userId": "6567823f46e78e7e6bb59170",
+  "answeredOn": {
+    "$date": "2023-12-04T15:27:27.364Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df01e5709f0b5e70ee9a5"
+  },
+  "questionId": "656def8d5709f0b5e70ee95a",
+  "answerBody": "I would like to join the seminar sir..",
+  "userName": "Ratan jadhav",
+  "userId": "6567823f46e78e7e6bb59170",
+  "answeredOn": {
+    "$date": "2023-12-04T15:28:30.634Z"
+  },
+  "__v": 0
+}]
