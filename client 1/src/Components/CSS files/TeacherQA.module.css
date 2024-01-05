@@ -1,0 +1,42 @@
+.tqaDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.query {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#names{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+#qu{
+    width:26rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+#textArea{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif ;
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
+
+#sbtn{
+    width: 10rem;
+    background-color: rgb(118, 223, 132);
+    color: black;
+    border-radius: 0.5rem;
+}

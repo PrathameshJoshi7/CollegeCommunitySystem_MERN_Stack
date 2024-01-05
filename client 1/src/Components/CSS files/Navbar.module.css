@@ -1,0 +1,64 @@
+*{
+    margin:0rem;
+}
+
+.mainouterclass{
+    position:sticky;
+    display: flex;
+    border: 2px solid #000;
+    background: rgba(44, 194, 167, 0.31);
+    justify-content:flex-start;
+    
+}
+.items, #verticalLine{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    padding-left: 1rem;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+#verticalLine{
+    font-weight: bold;
+}
+
+
+.profileIcon{ 
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.menuProfile{
+    position: absolute;
+    top: 3em;
+    right: 1%;
+    background-color: rgb(240, 233, 233);
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profileItems{
+    padding-right: 2rem;
+    font-family: Domine;
+    font-size: 1.3rem;
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+@media (max-width: 426px) and (min-width: 300px) {
+    .items,#verticalLine{
+        padding-left: 0.4rem;
+    }
+}

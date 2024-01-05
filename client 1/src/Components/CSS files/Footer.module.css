@@ -1,0 +1,22 @@
+footer{
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+.footertext {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 0.53);
+}
+
+.text {
+    margin: 1rem 1rem 1rem 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

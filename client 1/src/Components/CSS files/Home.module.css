@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Inika;
+    src: url(../Font/Inika-Bold.ttf);
+    font-family: Domine;
+    src: url(../Font/Domine-VariableFont_wght.ttf);
+}
+
+.mainDiv {
+    /* border: 0.1rem solid white; */
+    background-image: url("../Images/ProfileBackgroundImage.jpg"); 
+    height: fit-content;  
+    
+}
+
+.mainHead {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FC3D13;
+    font-family: Domine;
+    padding-top: 2rem;
+
+}
+
+
+.container{
+    margin: 2rem 2rem 2rem 2rem;
+    background-Color: pink;
+    height: 13rem; 
+    width: 15rem;
+}
+
+.img{
+    margin: auto;
+    height: 7rem;
+    width: 15rem;
+}

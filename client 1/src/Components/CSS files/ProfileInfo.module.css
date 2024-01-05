@@ -1,0 +1,318 @@
+@font-face {
+    font-family: Inika;
+    src: url(../Font/Inika-Bold.ttf);
+    font-family: Domine;
+    src: url(../Font/Domine-VariableFont_wght.ttf);
+}
+
+.mainDiv {
+    /* border: 0.1rem solid white; */
+    background-image: url("../Images/ProfileBackgroundImage.jpg"); 
+    height: fit-content;  
+    
+}
+
+.mainHead {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FC3D13;
+    font-family: Domine;
+    padding-top: 2rem;
+
+}
+
+.formFrame {
+    /* display:flexbox;
+    flex-direction: column; */
+    /* margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;*/
+    margin: 2rem 5rem 0rem 5rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+    /* border: 0.2rem solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.labelNames {
+    font-size: 1.2rem;
+    font-family: 'Domine';
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.inputText1 {
+    width: 60%;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    /* border: 0.1rem solid #FC3D13; */
+
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Domine';
+    color: rgb(73, 69, 69);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 1rem;
+}
+
+.emailContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.emailDiv {
+    order: 1;
+    flex-grow: 5;
+
+
+}
+
+.contactDiv {
+    order: 2;
+    flex-grow: 5;
+}
+
+.inputText2 {
+    width: 80%;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Domine';
+    color: rgb(73, 69, 69);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 0.5rem;
+}
+
+.selectionOption {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-align: start;
+}
+
+.checkPoint {
+    margin-left: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Domine';
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.submitDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.submitProfile{
+    
+    width: 12rem;
+    height:3rem;
+    border-radius: 0.8rem;
+    font-family:'Domine';
+    background:rgb(121, 79, 236);
+    color:white;
+    font-weight:bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+
+}
+
+/*--------------------  Student Section Laptop --------------------*/
+
+.StudentSubSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.inputTextStudent{
+    width: 70%;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Domine';
+    color: rgb(73, 69, 69);
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.studentCourse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+       
+}
+.courseDiv {
+    order: 1;
+    flex-grow: 5;
+   
+}
+
+.ClassDiv {
+    order: 2;
+    flex-grow: 5;
+}
+
+/*------------------ Teacher Section Laptop----------------------------------*/
+
+.teacherMain{
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    text-align: start;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 20rem;
+    
+    
+}
+.inputTextTeacher{
+    width: 20vw;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Domine';
+    color: rgb(73, 69, 69);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* ------------------ Alumni Section Laptop--------------------------------*/
+.alumniMain{
+    display:flex;
+    flex-direction: row;
+    /* border: 0.2rem solid red; */
+    justify-content: space-around; 
+    margin-left: -2rem;
+
+}
+
+.comyear{
+    display: inline-flex;
+    flex-direction: column;
+    
+    
+}
+
+.ScopeExperience{
+    
+    display: inline-flex;
+    flex-direction: column;
+   
+}
+
+.inputTextAlumni{
+    width: 25vw;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Domine';
+    color: rgb(73, 69, 69);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/*--------------------  Mobile View for all Section --------------------------------*/
+
+@media (min-width: 300px) and (max-width:426px) {
+    .mainHead {
+        font-size: 1.6rem;
+    }
+
+    .formFrame {
+        margin: 2rem 1.5rem 0rem 1.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0rem;
+    }
+
+    .labelNames {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .inputText1 {
+        width: 90%;
+        font-size: 12px;
+        padding-left: 0.5rem;
+    }
+
+    .inputText2 {
+        width: 90%;
+        font-size: 12px;
+        padding-left: 0.5rem;
+    }
+
+    .emailContact {
+        flex-direction: column;
+    }
+
+    .selectionOption {
+        flex-direction: column;
+    }
+
+    /*----------- Student Section Mobil View ------------*/
+    .studentDegreeSelect{
+        display: flex;
+        flex-direction: row;
+    }
+    .studentCourse{
+        flex-direction: column;
+    }
+    .inputTextStudent{
+        width: 90%;
+    }
+
+    /*----------- Teacher Section Mobil View ------------*/
+    .teacherMain{
+        
+        margin-left: 0rem;
+        margin-top: 1rem;
+        width: 16rem;
+        
+    }
+    .inputTextTeacher{
+        width: 70vw;
+    }
+
+    /*----------- Alumni Section Mobil View ------------*/
+    .alumniMain{
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+    .inputTextAlumni{
+        width: 90%;
+    }
+
+
+}

@@ -1,0 +1,185 @@
+.splitScreen {
+    display: flex;
+    height: 80vh;
+    /* Adjust this if needed */
+    width: 98.9vw;
+    /* Adjust this if needed */
+
+}
+
+.seventy {
+    flex: 0.7;
+    background-color: #f0f0f0;
+    /* padding: 20px; */
+}
+
+.thirty {
+    flex: 0.3;
+    background-color: #e0e0e0;
+    /* padding: 20px; */
+}
+
+.querySection {
+    padding-top: 5%;
+    padding-left: 10rem;
+}
+
+.teacher {
+
+    display: inline;
+    flex-direction: start;
+    color: #000;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dropDownDiv {
+    display: inline;
+}
+
+.dropDropTeacherList {
+
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 6rem;
+    font-family: Domine;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: #000;
+    margin-left: 3rem;
+}
+
+.shorthint {
+    font-size: 1rem;
+    font-family: Domine;
+}
+
+.query {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    width: 30em;
+    height: 12em;
+    border-radius: 1rem;
+}
+
+.uploadButton::file-selector-button {
+    margin-top: 1.2rem;
+    border-radius: 10px;
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid #FFF;
+    background: #2766E1;
+    color: white;
+
+}
+
+.send {
+    margin-top: 2rem;
+    margin-left: 8rem;
+    width: 8rem;
+    height: 2.5rem;
+    color: #000;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: rgba(252, 247, 123, 0.85);
+}
+
+
+
+/* ------- 30 % section ----------------*/
+
+.history {
+    margin-top: 2rem;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#lodingBar{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*--------- Meadia Query for Mobile --------------*/
+@media (min-width:300px) and (max-width:426px) {
+    .splitScreen {
+        height: 90vh;
+        /* Adjust this if needed */
+        width: auto;
+        /* Adjust this if needed */
+    }
+    
+    .teacher {
+    font-size: 1rem;
+    }
+    .shorthint {
+        font-size: 0.8rem;
+    }
+
+    .querySection {
+        padding-top: 5%;
+        padding-left: 1.5rem;
+    }
+    .dropDropTeacherList {
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+    }
+    .query {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    margin-right: 1rem;
+    
+    width: 16em;
+    height: 12em;
+    }
+    .uploadButton::file-selector-button{
+        width: 6rem;
+        font-size: 0.8rem;
+    }
+    .send {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    .thirty{
+        margin-left: -2rem;
+    }
+    
+
+    .history {
+        font-size: 0.8rem;
+        
+    }
+
+    
+
+   
+    
+   
+}
+
+
+
